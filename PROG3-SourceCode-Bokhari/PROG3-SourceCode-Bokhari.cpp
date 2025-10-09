@@ -1,12 +1,12 @@
 //Nico Bokhari
 //CIS3501-Luis Ortiz
 //11/24/21
-#include <iostream>
-#include "sortingLists.h"
-#include <vector>
-#include <stdlib.h> //srand, rand
-#include <time.h> //time 
 #include <fstream>
+#include <iostream>
+#include <time.h> //time
+#include <vector>
+#include "sortingLists.h"
+#include <cmath>
 using namespace std; 
 void resetGlobals(); 
 void genRandList(sortingLists list1, sortingLists list2, sortingLists list3, int inputSize, int numSwaps);
