@@ -1,0 +1,2 @@
+add_executable(my_app simple_example.cpp)
+target_link_libraries(my_app PRIVATE MyLibraryExample)
