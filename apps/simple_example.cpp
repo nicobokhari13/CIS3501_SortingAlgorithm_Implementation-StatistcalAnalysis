@@ -4,7 +4,7 @@
 // This is an example file as part of Modern-CMake
 
 #include <iostream>
-#include <sort-algs/lib.hpp>
+#include "../include/sort-algs/lib.hpp"
 
 int main() {
 
