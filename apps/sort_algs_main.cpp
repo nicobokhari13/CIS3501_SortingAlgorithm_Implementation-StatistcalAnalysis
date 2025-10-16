@@ -17,7 +17,7 @@ void runTestCase(sortingLists listMerge, sortingLists listDetQuick, sortingLists
 int main()
 {	//output file to store averages
 	ofstream outputFile;
-	outputFile.open("outputFile.txt");
+	outputFile.open("temp/outputFile.txt");
 	//establish random numbers
 	srand(time(nullptr));
 	//list input sizes: 10,20,50,100,200,500,1000

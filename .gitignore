@@ -372,6 +372,8 @@ CMakeCache.txt
 Makefile
 *.a
 my_app
+sort_algs_app
 /build
 .idea/
 *.out
+temp/
