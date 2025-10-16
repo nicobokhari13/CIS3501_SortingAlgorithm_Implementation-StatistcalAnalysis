@@ -1,6 +1,4 @@
 #pragma once
-using namespace std; 
-#include <vector>
 extern int compMerge;
 extern int compQuickDet;
 extern int compQuickRand;

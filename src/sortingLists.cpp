@@ -1,7 +1,7 @@
-#include "sortingLists.h"
-sortingLists::sortingLists() {
-}
-void 
+#include "../include/sort-algs/sortingLists.h"
+#include "../include/sort-algs/globals.h"
+sortingLists::sortingLists() = default;
+void
 sortingLists::setList(int s) {
 	delete numArray;
 	size = s;

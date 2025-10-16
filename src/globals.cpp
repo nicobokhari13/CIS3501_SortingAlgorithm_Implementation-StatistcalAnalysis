@@ -1,4 +1,4 @@
-#include "globals.h"
+#include "../include/sort-algs/globals.h"
 //Comp Merge vector
 //Comp Quick Det Vector
 //Comp Quick Rand Vector

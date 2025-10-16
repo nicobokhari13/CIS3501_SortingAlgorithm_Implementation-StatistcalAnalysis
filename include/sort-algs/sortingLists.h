@@ -2,18 +2,16 @@
 #ifndef SORTINGLISTS_H
 #define	SORTINGLISTS_H
 #include <iostream>
-#include "globals.h"
-#include <stdlib.h> //srand, rand
-#include <time.h> //time 
 using namespace std;
 class sortingLists
 {
 public: 
 	sortingLists();
-	int* numArray; 
-	int size;
+	int* numArray{};
+	int size{};
 	void swap(int* seq, int ind1, int ind2);
-	void printList() {
+	void printList() const
+	{
 		for (int i = 0; i < size; i++) {
 			cout << numArray[i] << ", "; 
 		}
